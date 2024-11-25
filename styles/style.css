@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts are linked here  */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Work Sans", sans-serif;   
+}
+
+.container{
+    max-width:1280px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header area css start here  */
+.header-bg{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.logo-text a h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.logo-text a{
+    text-decoration: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #424242;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* header area css end here  */
+
+/* hero area css start here  */
+.hero-area{
+    padding-top: 116px;
+    text-align: center;
+
+}
+.hero-area h1 {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.hero-area p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #131313;
+    padding-bottom: 40px;
+}
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff900e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.hero-img {
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* hero area css end here  */
+
+
+/* team area css start here  */
+.team {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 30px;
+}
+
+.team-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-image {
+    width: 342px;
+    height: 342px;
+    overflow: hidden;
+}
+
+.team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-text h2 {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.team-text span {
+    font-weight: 700;
+    color: #131313;
+}
+
+span.color {
+    color: #ff900e;
+}
+
+
+.team-text p {
+    color: #727272;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* team area css end here  */
+/* feature area css start here  */
+
+.feature {
+    display: flex;
+    gap: 70px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.experience {
+    position: absolute;
+    top: 92%;
+    left: 46%;
+    width: 211px;
+    height: 142px;
+    background-color: #ff900e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.left-feature-area {
+    width: 50%;
+}
+
+.vl {
+    background-color: #ff900e;
+    width: 5px;
+    height: 106px;
+}
+
+.feature-header-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.feature-header-text h1 {
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature-text p {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 60px;
+}
+
+.text-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0, 0.06);
+    padding: 30px;
+}
+
+.text-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.text-card p {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.text-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.text-card p {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+.feature-right {
+    width: 50%;
+}
+.feature-image {
+    width: 700px;
+    height: 982px;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.experience h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.experience p {
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 400;
+}
+/* feature area css end here  */
+
+
+.fact-area-header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.fact-area-header p {
+    width: 43%;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.award {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 150px;
+}
+
+.award-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+}
+
+.award-card img {
+    width: 100;
+}
+
+.award h5 {
+    font-size: 35px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.sponsor-header {
+    text-align: center;
+}
+
+.sponsor-header h1 {
+    color: #131313;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+.sponsor-header p {
+    font-size: 16px;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.sponsor-image {
+    width: 160px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.sponsor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #fff4e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+section.footer h6 {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:576px) {
+    .header{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-bottom: 10px;
+    }
+    .team{
+        grid-template-columns: repeat(1 ,1fr);
+        gap: 26px;
+    }
+    .team-left{
+        gap: 14px;
+    }
+    .team-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .team-right{
+        text-align: center;
+
+    }
+    .feature{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .left-feature-area{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-header-text{
+        flex-direction: column;
+    }
+    .vl{
+        height: 3px;
+        width: 60%;
+    }
+    .feature-right{
+        width: 100%;
+    }
+    .feature-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .experience{
+        top: 95%;
+        left: 35%;
+        box-shadow: 0px 4px 10px 0px  rgba(0,0,0, 0.60);
+        
+    }
+    .fact-area{
+        text-align: center;
+    }
+    .fact-area-header p{
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 34px;
+    }
+    .award{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+    .container{
+        padding: 10px;
+    }
+    .sponsor-header p{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+    .sponsor-icon{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+}   
+
+/* 
+@media screen  and (max-width:992px) and (min-width:576px) {
+    .container{
+        max-width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
